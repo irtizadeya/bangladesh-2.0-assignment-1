@@ -224,11 +224,17 @@ img{
     padding: 40px;
     border-radius: 16px;
     width: 240px;
+
+}
+.amount{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
 }
 .input
 {
     padding: 20px 40px;
-    
+
 }
 .donate-btn{
     font-size: 18px;
