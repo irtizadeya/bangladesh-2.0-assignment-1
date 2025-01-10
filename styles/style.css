@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* shared styles */
+.btn-primary{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 17px 34px;
+    border: none;
+}
+.btn-secondary{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* body styles */
+
+body{
+    margin: 0 160px;
+}
+
+/* header styles */
+.header{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin-top: 50px;
+    /* margin: 120px 160px; */
+    /* max-width: 1280px; */
+    /* max-height: 560px; */
+}
+img{
+    padding: 80px 60px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    padding: 117px 60px;
+}
+.banner-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+/* goal section styles */
+.bg-1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.bg-2{
+    background-color: #C6E4D6;
+}
+.bg-3{
+    background-color: #F7EBCF;
+}
+
+.goal-heading{
+    margin-top: 80px;
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.goal-subheading{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+
+.goal-container{
+    display: flex;
+    gap: 24px;
+}
+.goal-box{
+    border-radius: 16px;
+    padding: 32px;
+    width: 33%;
+    max-height: 325px;
+
+}
+.goal-title{
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.goal-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+.img{
+    padding: 32px 315px 24px 32px;
+    
+}
+
+/* button styles */
+.b-1-color{
+    background-color: #5490F5 ;
+}
+.b-2-color{
+    background-color: #09A15C;
+}
+.b-3-color{
+    background-color: #FFC239;
+}
