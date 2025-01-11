@@ -226,6 +226,7 @@ img{
 }
 .donate-container{
     text-align: center;
+    margin-bottom: 80px;
 }
 .taka{
     display: flex;
@@ -233,11 +234,13 @@ img{
     justify-content: center;
     align-items: center;
     padding: 32px 104px 32px 104px;
+    /* max-height: 128px; */
 }
 .taka-box{
     padding: 40px;
     border-radius: 16px;
     width: 240px;
+    height: 128px; 
 
 }
 .amount{
@@ -245,11 +248,16 @@ img{
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
 }
-.input
-{
+input[type="text"]{
+    width: 75%;
+    margin: 32px 124px 32px 124px;
     padding: 20px 40px;
-
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    color:rgba(14, 14, 14, 0.3);
 }
+
 .donate-btn{
     font-size: 18px;
     font-weight: 600;
@@ -258,4 +266,60 @@ img{
     padding: 17px 34px;
     border-radius: 8px;
     border: none;
+}
+/* subsribe section styles */
+.sub-container{
+    text-align: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 100px;
+    max-height: 395px;
+}
+.sub-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin: 0px 329px 16px 329px;
+}
+.sub-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+input[type="email"]{
+    padding: 18px 40px;
+    border-radius: 16px;
+    border: none;
+    width: 70%;
+    margin-bottom: 24px;
+}
+.sub-con{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+/* yunus section styles */
+.yunus-container{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    padding: 48px 24px;
+    margin-top: 80px;
+    border-radius: 16px;
+    background-color: white;
+}
+.sppech{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.8);
+}
+.name{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+}
+.desig{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.6);
 }
