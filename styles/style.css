@@ -303,17 +303,38 @@ input[type="text"]{
     color: rgba(14, 14, 14, 0.7);
     margin-bottom: 24px;
 }
-input[type="email"]{
-    padding: 18px 40px;
-    border-radius: 16px;
-    border: none;
-    width: 70%;
-    margin-bottom: 24px;
+.sub-form{
+    display: flex;
+    justify-content: center;
 }
+.sub-form input{
+    width: 70%;
+    height: 50px;
+    text-align: center;
+    border-radius: 16px;
+    border-style: none;
+    text-align: left;
+    padding: 5px 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
 .sub-con{
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
+}
+.sub-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #006A50;
+    padding: 17px 34px;
+    border-radius:16px ;
+    transition: 0.5s ease;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.sub-btn:hover{
+    background-color: darkslategray
 }
 /* yunus section styles */
 .yunus-container{
@@ -338,15 +359,4 @@ input[type="email"]{
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.6);
-}
-.sub-btn{
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
-    background-color: #006A50;
-    padding: 17px 34px;
-    border-radius:16px ;
-}
-.sub-btn:hover{
-    background-color: darkslategray
 }
