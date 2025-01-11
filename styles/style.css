@@ -208,9 +208,11 @@ img{
 .news-btn:hover{
     background-color: darkslategray;
 }
-.img{
+figure .rad{
     border-radius: 24px;
     padding: 0 32px 0 0;
+    width: 400px;
+    height: 300px;
 }
 .jazeera{
     padding: 0 610px 12px 0;
@@ -243,7 +245,6 @@ img{
     justify-content: center;
     align-items: center;
     padding: 32px 104px 32px 104px;
-    /* max-height: 128px; */
 }
 .taka-box{
     padding: 40px;
@@ -282,7 +283,7 @@ input[type="text"]{
 .donate-btn:hover{
     background-color: darkslategray;
 }
-/* subsribe section styles */
+/* subscribe section styles */
 .sub-container{
     text-align: center;
     background-color: #C6E4D6;
@@ -330,6 +331,7 @@ input[type="text"]{
     background-color: #006A50;
     padding: 17px 34px;
     border-radius:16px ;
+    border: none;
     transition: 0.5s ease;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
@@ -345,7 +347,7 @@ input[type="text"]{
     border-radius: 16px;
     background-color: white;
 }
-.sppech{
+.speech{
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.8);
