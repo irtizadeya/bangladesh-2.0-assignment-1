@@ -341,6 +341,7 @@ input[type="text"]{
 /* yunus section styles */
 .yunus-container{
     background-image: url('../assets/quote-bg.png');
+    background-position: 24px 24px;
     background-repeat: no-repeat;
     padding: 48px 24px;
     margin-top: 80px;
